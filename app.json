@@ -8,8 +8,8 @@
     "scheme": "easyride",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/icons/car-logo.png",
-      "resizeMode": "cover",
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
       "backgroundColor": "#37353E"
     },
     "newArchEnabled": true,
@@ -18,10 +18,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "#000000",
-        "backgroundImage": "#000000",
-        "monochromeImage": "#000000"
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/images/logo.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
@@ -36,9 +34,8 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#00ff00",
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff",
           "dark": {
             "backgroundColor": "#000000"
           }
