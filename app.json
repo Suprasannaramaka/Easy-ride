@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/icons/car-logo.png",
       "resizeMode": "cover",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#37353E"
     },
     "newArchEnabled": true,
     "ios": {
