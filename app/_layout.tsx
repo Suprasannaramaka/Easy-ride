@@ -3,6 +3,7 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
+import "../assets/fonts/PlusJakartaSans-Bold.tff";
 
 SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
