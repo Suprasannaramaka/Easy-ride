@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Easy-  Ride",
+    "name": "Easy-Ride",
     "slug": "Easy-Ride",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "",
+    "icon": "./assets/images/logo.png",
     "scheme": "easyride",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/logo.png",
+      "image": "./assets/images/car.webp",
       "resizeMode": "contain",
       "backgroundColor": "#37353E"
     },
