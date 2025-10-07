@@ -5,7 +5,6 @@ module.exports = function (api) {
       ["babel-preset-expo"],
       plugins:[
       ['@babel/plugin-transform-react-jsx', { runtime: 'automatic' }],
-      require.resolve('expo-router/babel'),
       ],
   };
 };

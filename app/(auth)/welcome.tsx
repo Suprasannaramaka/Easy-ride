@@ -1,6 +1,7 @@
 import { router } from 'expo-router';
 import { Text, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import Swiper from 'react-native-swiper';
 const Onboarding = () =>
 {
     return(
@@ -13,6 +14,9 @@ const Onboarding = () =>
       >
       <Text className="text-black text-md font-jakartaBold">Skip</Text>
       </TouchableOpacity>
+     <Swiper>
+      
+     </Swiper>
     </SafeAreaView>
     );
 };
