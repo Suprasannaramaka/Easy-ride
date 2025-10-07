@@ -24,7 +24,9 @@ const Onboarding = () =>
      activeDot={<View className="w-[32px] h-[5px] mx-1 bg-[#0286FF] rounded-full"/>}
      onIndexChanged = {(index) => setActiveIndex(index)}>
      {onboarding.map((item) =>
-     (<View><Text>{item.title}</Text></View>))}
+     (<View>
+      <Text>{item.title}</Text>
+      </View>))}
      </Swiper>
     </SafeAreaView>
     );
